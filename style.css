@@ -1,0 +1,91 @@
+.btns{
+    border: solid;
+    border-color: black;
+    width: 400px;
+    height:350px;
+    border-radius:12px ;
+    background-color: rgb(7, 35, 35);
+   
+}
+.display{
+    width: 400px;
+    height: 50px;
+    top: 190px;
+    left: 466px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 12px;
+    display: flex;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.wraper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.btn{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+    padding-left: 35px;
+    row-gap: 15px;
+}
+.BTN1{
+    position: absolute;
+    margin-top: 260px;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(108, 206, 206, 0.621);
+}
+.BTN2{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 180px;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(229, 58, 58);
+    color: white;
+}
+.btn3{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(108, 206, 206, 0.621);
+    width: 60px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button{
+    width: 100%;
+    height: 40px;
+}
